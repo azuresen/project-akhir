@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 15px;
+    /* background-color: black; */
+    /* position: absolute; */
+    top: 1px;
+    padding-top: 30px;
+    position: fixed;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 18px;
+    padding-right: 30px;
+}
+.navbar ul li{
+    background-color: darkgrey;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+header {
+    background-image: url(./asset/GunungBromo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40pc;
+    color: white;
+    width: 100%;
+}
+.text {
+    color: white;
+    /* background-color: aquamarine; */
+    /* padding: 30px;
+    margin: 30px; */
+    position: absolute;
+    top: 25pc;
+    left: 3pc;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+.n4 {
+    background-image: url(./asset/GunungIndah.jpg);
+    background-repeat: no-repeat;
+    /* margin-bottom: 20PX; */
+    background-size: cover;
+    width: 100%;
+    height: 50pc;
+    /* position: absolute; */
+    /* padding: auto; */
+    /* margin-bottom: auto; */
+}
+.n5 {
+    color: white;
+    /* background-color: aquamarine; */
+    /* padding: 30px;
+    margin: 30px; */
+    position: absolute;
+    top: 4pc;
+    left: 33pc;
+    font-size: 40px;
+    /* text-align: ; */
+    /* right: 100px; */
+    font-family:'Times New Roman', Times, serif;
+}
+.n6{
+    background-color: aliceblue;
+    width: 19pc;
+    height:23pc;
+    border-radius: 40px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
+    left: 3pc;
+    top: -8pc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;  
+    text-align: center;
+    padding: 20px;
+    /* font-size: 30px; */
+} 
+.n6fb {
+    font-size: 13px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.n6 img {
+    width: 20pc;
+    height: 20pc;
+    margin: -1pc;
+    padding: 0;
+    /* top: -10px; */
+}
+.n7 {
+    background-color:aliceblue;
+    width: 280px;
+    height: 22pc;
+    border-radius: 35px;
+    display: inline-block;
+    justify-content: center;
+    color: black;
+    position: relative;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    left: -3pc;
+    top: -8pc;
+    text-align: center;
+    padding: 29px;
+}
+.n7ig {
+    color: grey;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.n7 img {
+    width: 12pc;
+    height: 12pc;
+    margin: 40px;
+    padding: -25px;
+}
+.main {
+    position: relative;
+    top: -3;
+}
+.n11 {
+    display: flex;
+    justify-content: space-between;
+    width: 70pc;
+    margin: auto;
+    position: relative;
+    top: 20pc;
+}
+.bg3 {
+    background-color: red;
+    height: 9pc;
+}
+.bg4 {
+    background-color: darkgray;
+    width: 50PC;
+    height: 26pc;
+    border-radius: 8px;
+    /* display: inline-block; */
+    justify-content: center;
+    color: black;
+    position: relative;
+    align-items: center;
+    font-size: 27px;
+    font-family: 'prociono';
+    left: 20pc;
+    top: -5pc;
+    text-align: center;
+    margin-right: 200pc;
+    /* font-size: 27px; */
+    padding: 20px;
+    /* margin-top: 20px; */
+}
+.img3 {
+    color: white;
+    padding: 18px;
+    margin: 50px;
+    width:  22pc;
+    height: 20px;
+    border-radius: 25pc;
+    background-color: grey;
+    font-size: 20px;
+    /* padding-left: 70px; */
+    margin-left: 13pc;
+    text-align: center;
+}
+.box1{
+    position: relative;
+    top: -135pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+.box1 p{ 
+    /* left: 590px; */
+    font-family: 'Prociono';
+    font-size: 25px;
+    top: 0;
+    color: #000000;
+    margin-top: 79px;
+}
+.box2 {
+    position: relative;
+    top: -130pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.box2 p {
+    /* left: 590px; */
+    font-family: 'Prociono';
+    font-size: 25px;
+    top: 0;
+    color: #000000;
+    margin-top: 79px;
+}
+.box3 {
+    position: relative;
+    top: -130pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.box3 p {
+    /* left: 590px; */
+    font-family: 'Prociono';
+    font-size: 25px;
+    top: 0;
+    color: #000000;
+    margin-top: 79px;
+}
+.box4 {
+    position: relative;
+    top: -129pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.box4 p {
+    /* left: 590px; */
+    font-family: 'Prociono';
+    font-size: 25px;
+    top: 0;
+    color: #000000;
+    margin-top: 79px;
+}
+/* .carrier {
+    margin-top: 30px;
+} */
+.img5 {
+    padding: 120px;
+    z-index: -1;
+}
+.img6 {
+    padding: 120px;
+}
+.footer {    
+text-align: center;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  height: 10pc;
+  top: 100px;
+  font-size: 40px;
+}
+.p {
+    background-image: url(./asset/Gunung-Bromo-sunrise.jpg);
+    background-repeat: no-repeat;
+    /* margin-bottom: 20PX; */
+    background-size: cover;
+    width: 100%;
+    height: 50pc;
+    margin-top: -110pc;
+    font-size: 2pc;
+    font-family: 'roboto';
+    color: white;
+    text-align: center;
+}
+
+.q {
+    background-image: url(./asset/gunungijen.jpg);
+    height: 10pc;
+    width: 20pc;
+    /* top: 20pc; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20pc; */
+    margin-left: 12pc;
+    margin-top: 10pc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    padding: 12px;
+}
+.r {
+    margin-top: 12pc;
+    top: -400px;
+    left: -320px;
+    position: relative;
+    text-align: 12px;
+}
+.s {
+    background-image: url(./asset/papandayan\ 2.jpg);
+    height: 10pc;
+    width: 20pc;
+    position: relative;
+    top: -620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20pc; */
+    margin-left: 50pc;
+    padding: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.t {
+    background-image: url(./asset/gn.andong.jpg);
+    height: 10pc;
+    width: 20pc;
+    position: relative;
+    top: -450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20pc; */
+    margin-left: 31pc;
+    padding: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.g1 {
+    /* margin-top: -250px; */
+    padding: 5pc;
+    margin-top: -300px;
+}
+.boxg1 {
+    position: relative;
+    top: -370px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+.boxg2 {
+    position: relative;
+    top: -24pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+.g2 {
+    padding: 5pc ;
+    margin-top: -300px;
+}
+.g3 {
+    padding: 5pc ;
+    margin-top: -300px;
+}
+.boxg3 {
+    position: relative;
+    top: -24pc;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* float: left; */
+    margin-left: 550px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+}
